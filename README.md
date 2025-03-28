@@ -1,26 +1,27 @@
-# LLM-RAG Automation API  
+# LLM-RAG Automation API with Groq  
 
-A **Python-based API service** that dynamically retrieves and executes automation functions using **LLM + RAG (Retrieval-Augmented Generation)**. The system processes user prompts, maps them to predefined automation functions, and generates executable Python code for function invocation.  
+A **Python-based API service** that dynamically retrieves and executes automation functions using **LLM + RAG (Retrieval-Augmented Generation)**. The system processes user prompts, maps them to predefined automation functions, and dynamically generates executable Python code for function invocation using the **Groq API**.  
 
 ## Key Features  
-- **LLM + RAG Integration**: Enhances response generation by retrieving relevant automation functions.  
-- **Dynamic Code Generation**: Translates user prompts into executable Python code.  
-- **Function Mapping**: Matches prompts with predefined automation workflows.  
-- **API-Driven Architecture**: Built with FastAPI for seamless integration and execution.  
+- **LLM + RAG with Groq API**: Uses Groq's AI models for accurate function retrieval and code generation.  
+- **Dynamic Code Execution**: Converts user prompts into executable Python scripts.  
+- **Predefined Function Mapping**: Matches user requests with existing automation workflows.  
+- **FastAPI Integration**: Provides a scalable API for task execution.  
 
 ## How It Works  
-1. **User Input**: The system receives a prompt describing an automation task.  
-2. **RAG Retrieval**: Searches for relevant predefined functions using an embedding-based retrieval system.  
-3. **Code Generation**: LLM generates a Python script to execute the identified function.  
-4. **Execution & Response**: The system runs the generated code and returns results to the user.  
+1. **User Input**: A prompt describing the automation task is received.  
+2. **RAG-Based Retrieval**: Searches for relevant predefined functions using embeddings.  
+3. **Groq API Generation**: Uses Groq to generate Python code for function execution.  
+4. **Execution & Response**: The system runs the generated code and returns results.  
 
 ## Use Cases  
 - **Automated Data Processing**  
-- **Task Scheduling and Execution**  
-- **Custom Script Generation**  
-- **API-Triggered Automation**  
+- **Dynamic Script Generation**  
+- **Task Scheduling & Execution**  
+- **API-Based Automation**  
 
-This API service enables efficient task automation by leveraging **LLM-driven reasoning and retrieval-based augmentation** to ensure accurate function execution. 🚀  
+This project leverages **Groq API, LLM-driven reasoning, and RAG** to automate workflows efficiently and intelligently.
+ 
 
 
 ## Features
